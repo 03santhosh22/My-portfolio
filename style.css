@@ -1,0 +1,78 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Press+Start+2P&family=Roboto:wght@400;500;700&display=swap');
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  #profile-pic{
+    object-fit: cover;
+    border-radius: 15px;
+  }
+
+  #navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    border-bottom: 0.5px solid gray;
+    box-shadow: 2px 2px 5px rgb(0,0,0,0.5);
+    z-index: 100;
+    animation: header 1.5s ease-in;
+  }
+
+  @keyframes header{
+    0%{
+      transform: translateY(-100%);
+    }
+  }
+
+  #navbarSupportedContent a{
+    border-bottom: 2px solid transparent;
+  }
+
+  #navbarSupportedContent a:hover{
+    border-bottom: 2px solid #ff0064;
+  }
+
+  .contact-btn{
+    background-color: #ff0064;
+    color: #fff;
+    padding: 3px 15px;  
+  }
+
+  button a{
+    text-decoration:#ff0064;
+  }
+
+  #HomeText{
+    font-weight: bold;
+    animation: HomeText 1.5s ease-in;
+  }
+
+  @keyframes HomeText {
+    0%{
+      transform: translateY(-100%);
+    }
+  }
+
+  .highlightword{
+    color: #ff0064;
+  }
+
+  #icons{
+    text-decoration: none;
+  }
+
+  .progresses{
+    justify-content: space-between;
+  }
+
+  .progress-bar{
+    background-color: #ff0064;
+  }
+
+  .skillimg{
+    padding-left: 50px;
+  }
